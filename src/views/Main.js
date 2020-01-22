@@ -16,7 +16,6 @@ const Main = props => {
         const result = await AsyncStorage.getItem('@trackpad_settings')
 
         if (result) {
-          console.log(result)
           const settings = JSON.parse(result)
           dispatch({ type: 'SET_SETTINGS', settings })
         }

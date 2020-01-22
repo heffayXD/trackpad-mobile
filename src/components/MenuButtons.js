@@ -8,7 +8,6 @@ const MenuButtons = props => {
   const keyboard = useKeyboard()
 
   const onKeyboard = () => {
-    console.log('Keyboard')
     textRef.focus()
   }
 

@@ -40,7 +40,6 @@ export const useToggleSocket = () => {
 
   const openWebSocket = () => {
     if (isOpen()) {
-      console.log('Socket already open')
       return
     }
 

@@ -22,7 +22,6 @@ const TouchArea = props => {
         mouseMove({ x: state.moveX * sensitivity, y: state.moveY * sensitivity })
         // mouseMove({ x: state.dx * sensitivity, y: state.dy * sensitivity })
       }
-      console.log({ x: state.moveX * sensitivity, y: state.moveY * sensitivity })
     },
     onPanResponderRelease: (event, state) => {
       toggleMove(false)
